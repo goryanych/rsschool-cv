@@ -53,14 +53,16 @@ a:focus { text-decoration: underline;}
   text-transform: uppercase;
 }
 
-.header-contacts p {
+.header-contacts ul {
   position: relative;
   padding-left: 18px;
 
   line-height: 22px;
+
+  list-style: none;
 }
 
-.header-contacts p::before {
+.header-contacts ul::before {
   content: "";
   position: absolute;
   top: 0;
